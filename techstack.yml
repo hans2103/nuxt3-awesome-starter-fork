@@ -1,11 +1,12 @@
 repo_name: hans2103/nuxt3-awesome-starter-fork
 report_id: c5e9c00b6634ea7de7e76e0c3bb11351
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:19:29+00:00'
+timestamp: '2024-01-04T14:57:21+00:00'
 requested_by: hans2103
 provider: github
 branch: main
-detected_tools_count: 18
+detected_tools_count: 20
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -36,7 +39,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/.eslintrc
+  detection_source: ".eslintrc"
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
 - name: Git
@@ -47,6 +51,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork
   detection_source: Repo Metadata
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
@@ -58,7 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -70,6 +75,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: yarn.lock
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -81,6 +87,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/package.json
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -93,12 +100,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/package.json
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -107,6 +116,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/package.json
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -120,7 +130,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -134,7 +144,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -148,7 +158,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -162,7 +172,35 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Hans Kuijpers
+  last_updated_on: 2022-04-11 18:13:36.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Hans Kuijpers
+  last_updated_on: 2022-04-11 18:13:36.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 12.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -176,7 +214,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -197,7 +235,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -211,7 +249,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
@@ -225,7 +263,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/hans2103/nuxt3-awesome-starter-fork/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Hans Kuijpers
   last_updated_on: 2022-04-11 18:13:36.000000000 Z
